@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   <header>
+     <img class="logo" src='images/logo.PNG'alt="logo"/>
+   
+ </header>
+  <nav>
+     <ul>
+       <li><a href="index.html">About me</a></li>
+       <li class="active"><a href="#">Register</a></li>
+       <li><a href="login.html">Login</a></li>
+     </ul>
+   </nav>
+  <main>
+    <form action="/action_page.php" method="get">
+      <fieldset>
+        <legend>Register</legend>
+        <div>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br></div>
+        <div>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br></div>
+        <div>
+        <label for="phone">Phone num:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}"><br><br></div>
+        <div>
+          <label for="gender">Gender:</label>
+          <select id = "gender">
+            <option>Male</option>
+            <option>Female</option>
+            <option>Prefer not to say</option>
+          </select><br><br>
+        </div>
+        <div>
+        <label for="Uname">Username:</label>
+        <input type="text" id="Uname" name="Uname"><br><br></div>
+        <div>
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="pass"><br><br></div>
+        <div>
+        <label for="rpassword">Retype password:</label>
+        <input type="password" id="rpass" name="rpass"><br><br></div>
+        <div>
+          <label for="country">Country:</label>
+          <select name="country" id="country">
+            <option>Nigeria</option>
+            <option>Ghana</option>
+            <option>Tunisia</option>
+          </select>
+        </div>
+        
+        <input type="submit" value="Submit">
+        
+      </fieldset>
+</form>
+  </main>
+  <footer></footer>
+</body>
+</html>

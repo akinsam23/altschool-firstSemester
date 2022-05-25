@@ -10,56 +10,62 @@
 
 <body>
  <header>
-   <nav>
+   <img class="logo" src='https://replit.com/@SamuelAkinyeye/RectangularUnwillingJumpthreading#My%20website/images/logo.PNG'alt="logo"/>
+ </header>
+     <nav>
      <ul>
-       <li class="right active"><a href="#about">About me</a></li>
-       <li><a href="#contact">Contact</a></li>
-       <li><a href="#register">Register</a></li>
-       <li><a href="#login">Login</a></li>
+       <li class="active"><a href="#">About me</a></li>
+       <li><a href="register.html">Register</a></li>
+       <li><a href="login.html">Login</a></li>
+       <li><a href="calculate.html">Calculator</a></li>
      </ul>
    </nav>
- </header>
-  <main>
-    <section class="about">
-      <h1>Akinyeye Samuel</h1>
-      <img src="images/IMG_20180424_091553.jpg"/>
-      <p>A analytical, confident and unrelenting individual with great communicational and technological skills.
+  <main class='column'>
+      <h1><b>Akinyeye Samuel</b></h1>
+      <img src="../images/mypix.jpg" width='70px' height='70px'/>
+      <p>An analytical, confident and unrelenting individual with good communicational and technological skills.
 </p>
-      <div class="goal">
+    <hr>
+    <section class='goal'>
+      <div>
         <h2>Goal in Altschool</h2>
           <ul>
             <li>
           I want to use the skills gotten in altschool to build applications and solve existing and future problems. 
             </li><br/>
           <li>
-          I will also want to improve my own life as the skills gotten will help me better apply myself to making life better for myself and my family.
+          To improve my own life as the skills gotten will help me better apply myself to making life better for myself and my family.
           </li><br/>
       </ul>
       </div>
-    </section>
-    
-    <div>
-      <table>
-        <caption><h2>Educational Qualifications</h2></caption>
-          <tr>
+    </section><br>
+  </main>
+    <article>
+      <div class="table">
+        <table>
+          <caption>
+            <h2>Educational Qualifications</h2>                     </caption>
+           <tr>
             <th>School</th>
-            <th>certification</th>
-          </tr>
-        <tr>
-            <td><b>Ahmadu Bello University</b></td>
+            <th>Certification</th>
+           </tr>
+           <tr>
+            <td>Ahmadu Bello University</td>
             <td>PGD.Ed</td>
           </tr>
           <tr>
-            <td>Delta state University (Abraka)</td>
+            <td>Delta state University</td>
             <td>B.Sc computer science</td>
           </tr>
           <tr>
-            <td>Nigerian Navy secondary school (Lagos)</td>
+            <td>Nigerian Navy secondary school               </td>
             <td>WASSCE</td>
           </tr>
       </table>
       </div>
-    <div class="job">
+    </article><br>
+    <article>
+      <div class="job">
       <table>
         <caption><h2>Job Experience</h2></caption>
           <tr>
@@ -67,7 +73,7 @@
             <th>Position</th>
           </tr>
         <tr>
-            <td><b>Care and cuddles</b></td>
+            <td>Care and cuddles</td>
             <td>Math Teacher / IT Support</td>
           </tr>
           <tr>
@@ -75,21 +81,61 @@
             <td>ICT Teacher/Exams officer</td>
           </tr>
           <tr>
-            <td>Vascon Communications</td>
+            <td>Vascon Solutions</td>
             <td>IT Support</td>
           </tr>
       </table>
     </div>
+    </article><br>
+    
     <div class="hobby">
-      My hobbies include:
+      <p>My hobbies include:</p>
       <ul>
-        <li>Football</li>
-        <li>chess</li>
-        <li>Gaming</li>
-        <li>Programming</li>
+        <li>Football &#x26BD</li>|
+        <li>Chess♖</li>|
+        <li>Gaming🎮</li>|
+        <li>Programming &#128516</li>
+      </ul>
+      <p>Skills:</p>
+      <ul>
+        <li>HTML</li>|
+        <li>CSS</li>|
+        <li>Javascript</li>|
+        <li>Phython</li>|
+        <li>Microsoft office packages(Excel, powerpoint, Word and access)</li>
       </ul>
     </div>
-  </main>
+    <section class="contact">
+       <div>
+          <form>
+            <fieldset>
+              <legend>Contact me</legend>
+              <p>
+            <label for="fname">Full name:</label>
+            <input type="text" id="fname" name="fname"></p><br><br>
+              <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"></p><br><br>
+              <p>
+            <label for="message">Message</label>
+            <textarea type="text" id="message" name="message">
+            </textarea></p><br><br>
+            <p><label for='priority'>Message Priority</label></p>
+            <select id="priority" name="priority">
+              <option>important</option>
+              <option>casual</option>
+              <option>Not important</option>
+            </select><br>
+            <input class="button" type="submit" value="Submit"><br>
+              </fieldset>
+          </form>
+        </div>
+    </section>
+  <br>
+  <footer>
+  <p>Author: Akinsam23</p>
+  <p><a href="mailto:akinsam23@gamil.com">akinsam23@gamil.com</a></p>
+</footer>
   <script src="script.js"></script>
 </body>
 
